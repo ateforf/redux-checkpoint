@@ -1,0 +1,29 @@
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  justify-content: flex;
+  align-items: flex;
+  height: 100vh;
+  margin: 0;
+  color: #000000;
+}
+h1 {
+  color: #007bff;
+}
+ 
+.button {
+  background-color: #7aa2ce; /* Background color */
+  color: #000000; /* Text color */
+  padding: 5px 10px; /* Padding (top and bottom, left and right) */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+.button:hover {
+  background-color: #dfee10; /* Darker background color on hover */
+}
